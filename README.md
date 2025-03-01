@@ -44,4 +44,4 @@ If attempting to create a new results file (**results_student_model.txt** or **r
 
 ## 3. Report
 
-The assignment report is available in the file GenAI 420 Project 1 Writeup.pdf.
+The assignment report is available in the file **GenAI 420 Project 1 Writeup.pdf**.
