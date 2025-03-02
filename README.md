@@ -10,7 +10,7 @@
 ---
 
 # **1. Introduction**  
-This project uses an **N-gram recommender system** to probabilistically generate Java methods with an initial set of tokens.  
+This project trains, evaluates, and tests an **N-gram recommender system** to probabilistically generate Java methods with an initial set of tokens.  
 
 ---
 
