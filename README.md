@@ -26,10 +26,13 @@ This project is implemented in a **Google Colab Notebook** and is viewable and e
 **training.txt**
 **DatasetCSVs.zip**
 **CSCI420Project1_Final.ipynb**
+**Pretrained_Models.zip**
 
 (2) Open **CSCI420Project1_Final.ipynb** in Google Colab
 
-(3) Unzip **DatasetCSVs.zip** and place its contents alongside **training.txt** in the **content** (default location) folder of the notebook:
+(3) Unzip **DatasetCSVs.zip** and place its contents alongside **training.txt** in the **content** (default location) folder of the notebook.
+
+(4) Unzip **Pretrained_Models.zip** and place its contents (two **.dill** files) in the **content** folder of the notebook.
 
 ## **2.2 Install Packages**
 
@@ -37,10 +40,17 @@ All package dependencies will be covered by Google Colab itself and the import c
 
 ## **2.3 Run N-gram**
 
-To run the N-gram model, each code block (unless commented out/specified) must be run **in sequential order**. Most importantly, any block that modifies **model_train** will globally change **model_train** for evaluation methods, so executing out-of-order may cause issues. 
-
+To run the N-gram model, each code block (unless commented out/specified) **must be run in sequential order**. Most importantly, any block that modifies **model_train** will globally change **model_train** for evaluation methods, so executing out-of-order may cause issues. 
 If the CSVs and instructor-provided corpus are placed within the **content** folder, the code will run from start to finish without issues. Code blocks are commented extensively to highlight key features and nuances of functions or processes.
+
+## **2.4 Run Pre-trained Models**
+
+If the pre-trained models are added to the notebook, the labeled code blocks will load the **.dill** files and evaluate the stored models instead of training new ones.
+
+## **2.5 Generating Files**
+
 If attempting to create a new results file (**results_student_model.txt** or **results_teacher_model.txt**), uncomment the labeled code blocks and run them (note the warning about **model_train**).
+If attempting to generate new **.dill** pre-trained models, uncomment the labeled code blocks and run them (note the warning about **model_train**).
 
 ## 3. Report
 
